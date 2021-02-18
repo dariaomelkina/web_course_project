@@ -16,16 +16,15 @@
 </head>
 
 <body>
+	<div id="upper-section">
 	<header id="top">
 
 
-		<!-- тут буде логотип сайту -->
-		<h1><a href="#top"><img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/logo-1.png" alt="agency-logo"></a></h1>
+		<h1><a href="#top"><img id="logo" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/logo-1.png" alt="agency-logo"></a></h1>
 
     	<nav><a href="#top">Home</a><a href="">About us</a><a href="">Destinations</a><a href="">Stories</a><a href="">Contact us</a></nav>
 
-    	<!-- з посилань поки вигадала тільки гітхаб додати-->
-    	<ul><li>
+    	<ul class="iconList"><li>
     		<a href=""><i class="fa fa-facebook"></i></a>
     		<a href=""><i class="fa fa-instagram"></i></a>
     		<a href=""><i class="fa fa-twitter"></i></a>
@@ -37,18 +36,19 @@
 
 	<section>
 		<h2>Let`s explore the planet together</h2>
-		<h1>Go on exciting adventures</h1>
+		<h1 class="mainHeader">Go on exciting adventures</h1>
 
 		<!-- лінка на наступну секцію -->
-		<a href="#start-section">EXPLORE</a>
+		<div class="clsButton"><a class="exploreButton" href="#start-section">EXPLORE</a></div>
 	</section>
+	</div>
 
 	<section id ="start-section">
 		<div>
 			<h2>Explore together</h2>
-			<h1>Discover the most engaging places</h1>
+			<h1 class="secondaryHeader">Discover the most engaging places</h1>
 			<!-- потім вирішимо куди вестиме це посилання -->
-			<a href="">START DISCOVERING</a>
+			<a class="discoverButton" href="">START DISCOVERING</a>
 		</div>
 		<ul>
 			<!-- тут тимчасові зображення -->
@@ -73,7 +73,7 @@
 	<section id="destinations-section">
 		<div>
 			<h2>Exotic Adventures</h2>
-			<h1>Popular Destinations</h1>
+			<h1 class="secondaryHeader">Popular Destinations</h1>
 			<p>Hiking is the preferred term, in Canada and the United States, for a long, vigorous walk, usually on trails. The word hiking is also often used in the UK, along with rambling (a slightly old-fashioned term)</p>
 		</div>
 		<ul>
@@ -81,21 +81,21 @@
 			<!-- тут тимчасові зображення -->
 			<li>
 				<a href="">
-					<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-single-image-1.jpg" alt="alaska">
+					<img class="destinationImage" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-single-image-1.jpg" alt="alaska">
 					<h3>Explore Alaska today</h3>
 					<p>Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel dui rhoncus dignissim lorem ipsum. </p>
 				</a>
 			</li>
 			<li>
 				<a href="">
-					<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-single-image-2.jpg" alt="canada">
+					<img class="destinationImage" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-single-image-2.jpg" alt="canada">
 					<h3>Explore Canada today</h3>
 					<p>Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel dui rhoncus dignissim lorem ipsum. </p>
 				</a>
 			</li>
 			<li>
 				<a href="">
-					<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-single-image-3.jpg" alt="island">
+					<img class="destinationImage" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-single-image-3.jpg" alt="island">
 					<h3>Explore Island today</h3>
 					<p>Proin ac orci vel dui rhoncus dignissim lorem Proinac orci vel dui rhoncus dignissim lorem ipsum.</p>
 				</a>
@@ -106,35 +106,35 @@
 	<section id="experiences-section">
 		<div>
 			<h2>Popular stories</h2>
-			<h1>Best Experiences</h1>
+			<h1 class="secondaryHeader">Best Experiences</h1>
 		</div>
 		<ul>
 			<!-- потім вирішимо куди вестимуть ці посилання -->
 			<!-- тут тимчасові зображення -->
 			<li>
 				<a href="">
-					<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-1.jpg" alt="explore" width="200" height="200">
+					<img class="experiencesImage" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-1.jpg" alt="explore" width="200" height="200">
 					<h3>Explore</h3>
 					<p>Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor ...</p>
 				</a>
 			</li>
 			<li>
 				<a href="">
-					<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-2.jpg" alt="discover">
+					<img class="experiencesImage" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-2.jpg" alt="discover">
 					<h3>Discover</h3>
 					<p>Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor ...</p>
 				</a>
 			</li>
 			<li>
 				<a href="">
-					<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-3.jpg" alt="research">
+					<img class="experiencesImage" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-3.jpg" alt="research">
 					<h3>Research</h3>
 					<p>Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor ...</p>
 				</a>
 			</li>
 			<li>
 				<a href="">
-					<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-4.jpg" alt="hiking">
+					<img class="experiencesImage" src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/blog-4.jpg" alt="hiking">
 					<h3>Hiking</h3>
 					<p>Lorem ipsum dolor sit amet, proin gravida nibh vel velit auctor ...</p>
 				</a>
@@ -145,10 +145,10 @@
 
 	<section id="adventures-section">
 		<h2>Explore the planet together</h2>
-		<h1>Adventures</h1>
+		<h1 class="mainHeader">Adventures</h1>
 
 		<!-- потім вирішимо куди ця лінка -->
-		<a href="">EXPLORE</a>
+		<a class="exploreButton" href="">EXPLORE</a>
 
 		<ul>
 			<li>
@@ -175,11 +175,11 @@
 	<section id="video-section">
 		<div>
 			<h2>Watch the video</h2>
-			<h1>Proin ultricies</h1>
+			<h1 class="secondaryHeader">Proin ultricies</h1>
 			<p>Pellentesque sed dictum arcu donec ut tellus quis justo suscipit lobortis mollis nec erat. Sed et eros leohasellus varius ligula.</p>
 			
 			<!-- потім вирішимо куди ця лінка -->
-			<a href="">DISCOVER</a>
+			<a class="discoverButton" href="">DISCOVER</a>
 		</div>
 		<div>
 			<img src="https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-single-image-4.jpg">

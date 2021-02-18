@@ -1,4 +1,119 @@
-body{
+body {
+	font-family: 'Abril Fatface', cursive;
+}
 
-font-family: 'Abril Fatface', cursive;
+h2 {
+	text-align: center;
+	color: #c89454;
+	font-size: 23px;
+	line-height: 27px;
+}
+
+h3 {
+	color: #3e3a3b;
+	font-size: 27px;
+	line-height: 31px;
+}
+
+p {
+    color: #7b7b7b;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+a {
+	text-decoration:none;
+} 
+
+li {
+	display: inline-block;
+}
+
+footer {
+	color: #8a8184;
+	background-color: #271E1E;
+}
+
+#upper-section {
+	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-slider-1.jpg");
+	height: 100%;
+	width: 100%;
+}
+
+#logo {
+	height: 10%;
+	width: 10%;
+	display: block;
+	position: absolute;
+}
+
+
+.clsButton {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 13px;
+	line-height: 50px;
+	height: 50px;
+	width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exploreButton {
+	line-height: 50px;
+	color: rgb(255, 255, 255);
+	border-color: rgb(200, 148, 84);
+	background-color: rgb(200, 148, 84);
+    text-align: center;
+}
+
+.discoverButton {
+	color: #3e3a3b;
+	font-family: 'Open Sans',sans-serif;
+	border-color: #c89454;
+	font-size: 13px;
+	line-height: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-width: 1px;
+	padding-left: 39px;
+	padding-right: 39px;
+	}
+
+
+.mainHeader {
+	text-align: center;
+	width: 625px;
+	font-size: 90px;
+	line-height: 95px;
+	color: rgb(62, 58, 59);
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondaryHeader {
+	color: #3e3a3b;
+	font-size: 47px;
+	line-height: 50px;
+	text-align: left;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destinationImage {
+	width: 340px;
+	height: 460px
+}
+
+.experiencesImage {
+	width: 270px;
+	height: 270px
+}
+
+.iconList {
+
+
+
 }
