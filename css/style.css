@@ -2,6 +2,10 @@ body {
 	font-family: 'Abril Fatface', cursive;
 }
 
+section {
+	height: 100vh;
+}
+
 h2 {
 	text-align: center;
 	color: #c89454;
