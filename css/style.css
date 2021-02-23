@@ -19,6 +19,14 @@ h3 {
 	line-height: 31px;
 }
 
+h4 {
+	color: #c89454;
+	text-align: center;
+    font-family: 'Kalam',sans-serif;
+    font-size: 23px;
+    line-height: 27px;
+}
+
 p {
     color: #7b7b7b;
     font-size: 15px;
@@ -26,8 +34,15 @@ p {
 }
 
 a {
-	text-decoration:none;
+  color: #7b7b7b;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
 } 
+
+a:hover, a:active {
+  color: #c89454;
+}
 
 li {
 	display: inline-block;
@@ -38,6 +53,47 @@ footer {
 	background-color: #271E1E;
 }
 
+nav {
+	text-align: center;
+	margin-left: auto;
+    padding: 14px 25px;
+    text-align: right;
+    display: inline-block;
+    position:absolute;  
+    right: 300px; 
+    top:20px;
+}
+
+nav span {
+	font-size: 16px;
+	color: #3e3a3b
+}
+
+span {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 13px;
+	height: 20px;
+	width: auto;
+	padding-left: 4;
+}
+
+ul li {
+    padding-left: 1em;
+}
+
+nav a {
+	padding-left: 1em;
+}
+
+a i {
+	color: #3e3a3b
+}
+
+#mainHeader {
+	position: relative;
+	bottom: -270px;
+}
+
 #upper-section {
 	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-slider-1.jpg");
 	height: 100%;
@@ -45,44 +101,51 @@ footer {
 }
 
 #logo {
-	height: 10%;
-	width: 10%;
+	height: 62px;
+	width: auto;
 	display: block;
 	position: absolute;
+
+}
+.numbers {
+  color: #c89454;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.number_mames {
+  font-size: 27px;
+    font-weight: 400;
+    text-transform: none;
+    color: #3e3a3b;
+    margin: 22px 0 0;
+}
+
+.numbers_wrapper {
+  box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  // padding: 20px 30px;
+}
+
+.numbers_part {
+    padding-top: 104px;
+    padding-bottom: 94px;
+    text-align: center;
+    background-color: #f0eceb;
 }
 
 
-.clsButton {
-	font-family: 'Open Sans',sans-serif;
-	font-size: 13px;
-	line-height: 50px;
-	height: 50px;
-	width: 100px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.exploreButton {
+/*.exploreButton {
 	line-height: 50px;
 	color: rgb(255, 255, 255);
 	border-color: rgb(200, 148, 84);
 	background-color: rgb(200, 148, 84);
     text-align: center;
 }
+*/
 
-.discoverButton {
-	color: #3e3a3b;
-	font-family: 'Open Sans',sans-serif;
-	border-color: #c89454;
-	font-size: 13px;
-	line-height: 50px;
-	height: 50px;
-	background-color: #fff;
-	border-width: 1px;
-	padding-left: 39px;
-	padding-right: 39px;
-	}
 
 
 .mainHeader {
@@ -116,8 +179,80 @@ footer {
 	height: 270px
 }
 
-.iconList {
+.topIconList {
+  padding: 14px 25px;
+  text-align: right;
+  display: inline-block;
+  position:absolute;  
+  right: 50px; 
+  top:20px;
+}
+
+.botttomIconList {
+  padding: 14px 25px;
+  text-align: right;
+  display: inline-block;
+  position:relative;  
+  left: 50px; 
+  bottom:20px;
+}
+
+.botttomIconList a i {
+	color: white;
+}
+
+.clsButton {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*text-align: center;*/
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+
+}
 
 
+
+.exploreButton {
+	font-family: 'Open Sans',sans-serif;
+
+  	color: white;
+	background-color: #c89454;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+}
+
+.discoverButton {
+	font-family: 'Open Sans',sans-serif;
+
+	color: #3e3a3b;
+	background-color: #fff;
+	border-color: #c89454;
+
+	border: 1px solid #c89454;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	}
+
+.exploreButton:hover {
+	background-color: #555555;
+  	color: white;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.discoverButton:hover {
+	background-color: #c89454;
+  	color: white;
 
 }
