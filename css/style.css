@@ -50,7 +50,6 @@ li {
 
 footer {
 	color: #8a8184;
-	background-color: #271E1E;
 }
 
 nav {
@@ -100,6 +99,30 @@ a i {
 	width: 100%;
 }
 
+#destinations-section {
+	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-1.jpg");
+	height: 100%;
+	width: 100%;
+}
+
+#adventures-section {
+	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-2.jpg");
+	height: 100%;
+	width: 100%;
+}
+
+#reviews-section {
+	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-3-1.jpg");
+	height: 100%;
+	width: 100%;
+}
+
+#bottom-section {
+	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-brown.jpg");
+    height: 100%;
+	width: 100%;
+}
+
 #logo {
 	height: 62px;
 	width: auto;
@@ -107,6 +130,23 @@ a i {
 	position: absolute;
 
 }
+
+#start-section div {
+	display: inline-block;
+	padding-top: 105px;
+    padding-bottom: 83px;
+    text-align: left;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+
+
 .numbers {
   color: #c89454;
     font-size: 60px;
@@ -145,6 +185,35 @@ a i {
     text-align: center;
 }
 */
+
+.comments {
+  padding-top: 46px;
+    text-align: center;
+    padding-bottom: 11%;
+}
+
+.one_comment {
+  padding: 0px 29% 0 29%;
+}
+
+.author_photo {
+  margin: 0 0 33px;
+}
+
+.com_text {
+  font-family: Open Sans,sans-serif;
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #7b7b7b;
+}
+
+.com_author {
+  margin-top: 17px;
+}
 
 
 
