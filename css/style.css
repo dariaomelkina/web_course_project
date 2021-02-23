@@ -31,6 +31,7 @@ p {
     color: #7b7b7b;
     font-size: 15px;
     line-height: 25px;
+    font-family: open sans,sans-serif;
 }
 
 a {
@@ -105,10 +106,90 @@ a i {
 	width: 100%;
 }
 
+#destinations-section {
+	padding-top: 46px;
+	text-align: center;
+	padding-bottom: 11%;
+}
+
+#destinations-section div p {
+	margin-bottom:70px; 
+}
+
+#destinations-section ul li {
+	width: 400px;
+}
+
+#experiences-section {
+	display: inline-block;
+	padding-top: 105px;
+    padding-bottom: 83px;
+    text-align: left;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 100px;
+}
+
+#experiences-section ul li {
+	width: 269px;
+}
+
+#experiences-section ul li img {
+    margin-bottom: 20px; 
+}
+
+#experiences-section div h4 {
+	text-align: left;
+}
+#experiences-section div {
+    padding-left: 25px;
+    margin-bottom: 30px; 
+}
+
+
 #adventures-section {
 	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-2.jpg");
 	height: 100%;
 	width: 100%;
+	min-height: 73vh !important;
+}
+
+#adventures-section h4 {
+	padding-top: 5em;
+}
+#adventures-section h1 {
+	padding-bottom: 0.5em;
+}
+
+#video-section ul li {
+	width: 500px;
+	vertical-align: top;
+}
+
+#video-section ul li div img {
+	width: 600px;
+}
+
+#video-section ul li div h4 {
+	text-align: left;
+}
+
+#video-section ul li div {
+	padding-left: 100px;
+}
+
+#video-section {
+	min-height: 60vh !important;
+}
+
+#reviews-section {
+	min-height: 70vh !important;
+}
+
+.discoverButtonWrapper {
+  padding-left: 0 !important;
+  padding-top: 34px !important;
 }
 
 #reviews-section {
@@ -131,7 +212,13 @@ a i {
 
 }
 
-#start-section div {
+#start-section {
+	min-height: 0vh !important;
+	position: relative;
+	display: inline-block;
+}
+
+#start-section ul div {
 	display: inline-block;
 	padding-top: 105px;
     padding-bottom: 83px;
@@ -140,12 +227,33 @@ a i {
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-    padding-left: 15px;
+    padding-left: 100px;
     padding-right: 15px;
-    width: 100%;
+    width: 600px;
+}
+
+#start-section ul div h4 {
+	text-align: left;
+}
+#start-section ul div h2 {
+	text-align: left;
+	letter-spacing: 1.1px;
+}
+
+#start-section ul div #clsButton {
+	text-align: left;
 }
 
 
+#start-section ul ul li {
+	width: 150px;
+	text-align: center;
+	padding-left: 3em;
+}
+
+#numbers-section {
+	min-height: 0vh !important;
+}
 
 .numbers {
   color: #c89454;
@@ -232,7 +340,6 @@ a i {
 	color: #3e3a3b;
 	font-size: 47px;
 	line-height: 50px;
-	text-align: left;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -324,4 +431,40 @@ a i {
 	background-color: #c89454;
   	color: white;
 
+}
+
+footer {
+  color: #7b7b7b;
+}
+.row {
+  height: 750px;
+  font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 100%;
+}
+
+h5 {
+  font-family: "Abril Fatface",sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    text-transform: none;
+    color: #c89454;
+    font-style: normal;
 }
