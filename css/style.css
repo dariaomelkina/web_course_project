@@ -1,28 +1,28 @@
 body {
-	font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface', cursive;
 }
 
 section {
-	min-height: 100vh;
+    min-height: 100vh;
 }
 
 h2 {
-	text-align: center;
-	color: #c89454;
-	font-size: 23px;
-	line-height: 27px;
+    text-align: center;
+    color: #c89454;
+    font-size: 23px;
+    line-height: 27px;
 }
 
 h3 {
-	color: #3e3a3b;
-	font-size: 27px;
-	line-height: 31px;
+    color: #3e3a3b;
+    font-size: 27px;
+    line-height: 31px;
 }
 
 h4 {
-	color: #c89454;
-	text-align: center;
-    font-family: 'Kalam',sans-serif;
+    color: #c89454;
+    text-align: center;
+    font-family: 'Kalam', sans-serif;
     font-size: 23px;
     line-height: 27px;
 }
@@ -31,50 +31,47 @@ p {
     color: #7b7b7b;
     font-size: 15px;
     line-height: 25px;
-    font-family: open sans,sans-serif;
+    font-family: open sans, sans-serif;
 }
 
 a {
-  color: #7b7b7b;
+    color: #7b7b7b;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
-} 
+}
 
 a:hover, a:active {
-  color: #c89454;
+    color: #c89454;
 }
 
 li {
-	display: inline-block;
+    display: inline-block;
 }
 
-footer {
-	color: #8a8184;
-}
 
 nav {
-	text-align: center;
-	margin-left: auto;
+    text-align: center;
+    margin-left: auto;
     padding: 14px 25px;
     text-align: right;
     display: inline-block;
-    position:absolute;  
-    right: 300px; 
-    top:20px;
+    position: absolute;
+    right: 300px;
+    top: 20px;
 }
 
 nav span {
-	font-size: 16px;
-	color: #3e3a3b
+    font-size: 16px;
+    color: #3e3a3b
 }
 
 span {
-	font-family: 'Open Sans',sans-serif;
-	font-size: 13px;
-	height: 20px;
-	width: auto;
-	padding-left: 4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    height: 20px;
+    width: auto;
+    padding-left: 4;
 }
 
 ul li {
@@ -82,148 +79,153 @@ ul li {
 }
 
 nav a {
-	padding-left: 1em;
+    padding-left: 1em;
 }
 
 a i {
-	color: #3e3a3b
+    color: #3e3a3b
 }
 
 #mainHeader {
-	position: relative;
-	bottom: -270px;
+    position: relative;
+    bottom: -270px;
 }
 
 #upper-section {
-	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-slider-1.jpg");
-	height: 100%;
-	width: 100%;
+    background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-slider-1.jpg");
+    height: 100%;
+    width: 100%;
 }
 
 #destinations-section {
-	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-1.jpg");
-	height: 100%;
-	width: 100%;
+    background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-1.jpg");
+    height: 100%;
+    width: 100%;
 }
 
 #destinations-section {
-	padding-top: 46px;
-	text-align: center;
-	padding-bottom: 11%;
+    padding-top: 46px;
+    text-align: center;
+    padding-bottom: 11%;
 }
 
 #destinations-section div p {
-	margin-bottom:70px; 
+    margin-bottom: 70px;
 }
 
 #destinations-section ul li {
-	width: 400px;
+    width: 400px;
 }
 
 #experiences-section {
-	display: inline-block;
-	padding-top: 105px;
+    display: inline-block;
+    padding-top: 105px;
     padding-bottom: 83px;
     text-align: left;
-	background-position: center center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 100px;
 }
 
 #experiences-section ul li {
-	width: 269px;
+    width: 269px;
 }
 
 #experiences-section ul li img {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 #experiences-section div h4 {
-	text-align: left;
+    text-align: left;
 }
+
 #experiences-section div {
     padding-left: 25px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 
 #adventures-section {
-	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-2.jpg");
-	height: 100%;
-	width: 100%;
-	min-height: 73vh !important;
+    background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-2.jpg");
+    height: 100%;
+    width: 100%;
+    min-height: 73vh !important;
 }
 
 #adventures-section h4 {
-	padding-top: 5em;
+    padding-top: 5em;
 }
+
 #adventures-section h1 {
-	padding-bottom: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 #video-section ul li {
-	width: 500px;
-	vertical-align: top;
+    width: 500px;
+    vertical-align: top;
 }
 
 #video-section ul li div img {
-	width: 600px;
+    width: 600px;
 }
 
 #video-section ul li div h4 {
-	text-align: left;
+    text-align: left;
 }
 
 #video-section ul li div {
-	padding-left: 100px;
+    padding-left: 100px;
 }
 
 #video-section {
-	min-height: 60vh !important;
+    min-height: 60vh !important;
 }
 
 #reviews-section {
-	min-height: 70vh !important;
+    min-height: 70vh !important;
 }
 
 .discoverButtonWrapper {
-  padding-left: 0 !important;
-  padding-top: 34px !important;
+    padding-left: 0 !important;
+    padding-top: 34px !important;
 }
 
 #reviews-section {
-	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-3-1.jpg");
-	height: 100%;
-	width: 100%;
+    background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-3-1.jpg");
+    height: 100%;
+    width: 100%;
 }
 
 #bottom-section {
-	background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-brown.jpg");
-    height: 100%;
-	width: 100%;
+    /*background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-brown.jpg");*/
+    min-height: 30% !important;
+    max-height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    background-color: #3e3a3b !important;
 }
 
 #logo {
-	height: 62px;
-	width: auto;
-	display: block;
-	position: absolute;
+    height: 62px;
+    width: auto;
+    display: block;
+    position: absolute;
 
 }
 
 #start-section {
-	min-height: 0vh !important;
-	position: relative;
-	display: inline-block;
+    min-height: 0vh !important;
+    position: relative;
+    display: inline-block;
 }
 
 #start-section ul div {
-	display: inline-block;
-	padding-top: 105px;
+    display: inline-block;
+    padding-top: 105px;
     padding-bottom: 83px;
     text-align: left;
-	background-position: center center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -233,36 +235,37 @@ a i {
 }
 
 #start-section ul div h4 {
-	text-align: left;
+    text-align: left;
 }
+
 #start-section ul div h2 {
-	text-align: left;
-	letter-spacing: 1.1px;
+    text-align: left;
+    letter-spacing: 1.1px;
 }
 
 #start-section ul div #clsButton {
-	text-align: left;
+    text-align: left;
 }
 
 
 #start-section ul ul li {
-	width: 150px;
-	text-align: center;
-	padding-left: 3em;
+    width: 150px;
+    text-align: center;
+    padding-left: 3em;
 }
 
 #numbers-section {
-	min-height: 0vh !important;
+    min-height: 0vh !important;
 }
 
 .numbers {
-  color: #c89454;
+    color: #c89454;
     font-size: 60px;
     font-weight: 400;
 }
 
 .number_mames {
-  font-size: 27px;
+    font-size: 27px;
     font-weight: 400;
     text-transform: none;
     color: #3e3a3b;
@@ -270,11 +273,11 @@ a i {
 }
 
 .numbers_wrapper {
-  box-sizing: border-box;
+    box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-  // padding: 20px 30px;
+/ / padding: 20 px 30 px;
 }
 
 .numbers_part {
@@ -295,21 +298,21 @@ a i {
 */
 
 .comments {
-  padding-top: 46px;
+    padding-top: 46px;
     text-align: center;
     padding-bottom: 11%;
 }
 
 .one_comment {
-  padding: 0px 29% 0 29%;
+    padding: 0px 29% 0 29%;
 }
 
 .author_photo {
-  margin: 0 0 33px;
+    margin: 0 0 33px;
 }
 
 .com_text {
-  font-family: Open Sans,sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 19px;
     line-height: 31px;
     letter-spacing: 0px;
@@ -320,70 +323,69 @@ a i {
 }
 
 .com_author {
-  margin-top: 17px;
+    margin-top: 17px;
 }
 
 
-
 .mainHeader {
-	text-align: center;
-	width: 625px;
-	font-size: 90px;
-	line-height: 95px;
-	color: rgb(62, 58, 59);
-	display: block;
+    text-align: center;
+    width: 625px;
+    font-size: 90px;
+    line-height: 95px;
+    color: rgb(62, 58, 59);
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .secondaryHeader {
-	color: #3e3a3b;
-	font-size: 47px;
-	line-height: 50px;
-	display: block;
+    color: #3e3a3b;
+    font-size: 47px;
+    line-height: 50px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .destinationImage {
-	width: 340px;
-	height: 460px
+    width: 340px;
+    height: 460px
 }
 
 .experiencesImage {
-	width: 270px;
-	height: 270px
+    width: 270px;
+    height: 270px
 }
 
 .topIconList {
-  padding: 14px 25px;
-  text-align: right;
-  display: inline-block;
-  position:absolute;  
-  right: 50px; 
-  top:20px;
+    padding: 14px 25px;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
 }
 
 .botttomIconList {
-  padding: 14px 25px;
-  text-align: right;
-  display: inline-block;
-  position:relative;  
-  left: 50px; 
-  bottom:20px;
+    padding: 14px 25px;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
 }
 
 .botttomIconList a i {
-	color: white;
+    color: white;
 }
 
 .clsButton {
-	font-family: 'Open Sans',sans-serif;
-	font-size: 30px;
-	line-height: 50px;
-	height: 100px;
-	width: 100px;
-	display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    height: 100px;
+    width: 100px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     /*text-align: center;*/
@@ -393,52 +395,52 @@ a i {
 }
 
 
-
 .exploreButton {
-	font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
-  	color: white;
-	background-color: #c89454;
-	padding-left: 14px;
-	padding-right: 14px;
-	padding-top: 16px;
-	padding-bottom: 16px;
+    color: white;
+    background-color: #c89454;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 
 }
 
 .discoverButton {
-	font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
-	color: #3e3a3b;
-	background-color: #fff;
-	border-color: #c89454;
+    color: #3e3a3b;
+    background-color: #fff;
+    border-color: #c89454;
 
-	border: 1px solid #c89454;
-	padding-left: 14px;
-	padding-right: 14px;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	}
+    border: 1px solid #c89454;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
 
 .exploreButton:hover {
-	background-color: #555555;
-  	color: white;
-    font-family: 'Open Sans',sans-serif;
+    background-color: #555555;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 .discoverButton:hover {
-	background-color: #c89454;
-  	color: white;
+    background-color: #c89454;
+    color: white;
 
 }
 
 footer {
-  color: #7b7b7b;
+    color: #3e3a3b;
 }
+
 .row {
-  height: 750px;
-  font-family: "Open Sans",sans-serif;
+    height: 750px;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 25px;
     font-weight: 400;
@@ -447,20 +449,20 @@ footer {
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.column{
-  float: left;
-  width: 30%;
-  padding: 10px;
-  height: 100%;
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 100%;
 }
 
 h5 {
-  font-family: "Abril Fatface",sans-serif;
+    font-family: "Abril Fatface", sans-serif;
     font-size: 22px;
     letter-spacing: 0.3px;
     font-weight: 400;
@@ -468,4 +470,13 @@ h5 {
     color: #c89454;
     font-style: normal;
     padding-bottom: 15px
+}
+
+.botttomIconList {
+    padding: 10% 25px;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
 }
