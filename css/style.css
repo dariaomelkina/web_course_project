@@ -180,6 +180,7 @@ a i {
 
 #video-section {
     min-height: 60vh !important;
+    padding-top: 5%;
 }
 
 #reviews-section {
@@ -216,6 +217,8 @@ a i {
     width: auto;
     display: block;
     position: absolute;
+    padding-left: 3%;
+    padding-top: 3%;
 
 }
 
