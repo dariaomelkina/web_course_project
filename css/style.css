@@ -197,12 +197,17 @@ a i {
     width: 100%;
 }
 
-#bottom-section {
-    /*background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-brown.jpg");*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+    background-image: url("https://raw.githubusercontent.com/dariaomelkina/web_course_project/main/media/images/home-background-brown.jpg");
     min-height: 30% !important;
     max-height: 100%;
     width: 100%;
     padding-top: 5%;
+    padding-bottom: 1%;
     background-color: #3e3a3b !important;
 }
 
@@ -277,7 +282,7 @@ a i {
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-/ / padding: 20 px 30 px;
+ /* padding: 20 px 30 px; */
 }
 
 .numbers_part {
@@ -455,10 +460,9 @@ footer {
 }
 
 .column {
-    float: left;
     width: 30%;
-    padding: 10px;
-    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 h5 {
