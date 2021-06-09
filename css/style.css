@@ -219,7 +219,6 @@ a i {
     position: absolute;
     padding-left: 3%;
     padding-top: 3%;
-
 }
 
 #start-section {
@@ -285,7 +284,7 @@ a i {
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
- /* padding: 20 px 30 px; */
+    /* padding: 20 px 30 px; */
 }
 
 .numbers_part {
@@ -293,6 +292,10 @@ a i {
     padding-bottom: 94px;
     text-align: center;
     background-color: #f0eceb;
+}
+
+.navigation {
+    padding-top: 2.5%;
 }
 
 
@@ -366,7 +369,7 @@ a i {
 }
 
 .topIconList {
-    padding: 14px 25px;
+    padding: 2.5% 25px;
     text-align: right;
     display: inline-block;
     position: absolute;
